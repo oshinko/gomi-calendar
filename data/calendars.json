@@ -1,0 +1,15 @@
+[
+  {
+    "municipality": {
+      "slug": "kodaira",
+      "type": "city"
+    },
+    "calendars": [
+      {
+        "name": "花小金井南町",
+        "iCalendar": "https://calendar.google.com/calendar/ical/85c48c04a6baffab8f0e032a12a3b4575d3c536abcc50ba2b24570b34bda2e98%40group.calendar.google.com/public/basic.ics",
+        "googleCalendar": "https://calendar.google.com/calendar/u/2?cid=ODVjNDhjMDRhNmJhZmZhYjhmMGUwMzJhMTJhM2I0NTc1ZDNjNTM2YWJjYzUwYmEyYjI0NTcwYjM0YmRhMmU5OEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t"
+      }
+    ]
+  }
+]
