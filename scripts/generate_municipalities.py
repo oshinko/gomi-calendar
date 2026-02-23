@@ -345,6 +345,32 @@ def read_postal_slug_map(url: str) -> dict[tuple[str, str], str]:
     return out
 
 
+def read_postal_prefecture_slug_map(url: str) -> dict[str, str]:
+    raw = urlopen(url, timeout=60).read()
+    zf = zipfile.ZipFile(io.BytesIO(raw))
+    csv_name = next((n for n in zf.namelist() if n.upper().endswith(".CSV")), None)
+    if not csv_name:
+        raise RuntimeError("Could not find postal CSV in ZIP")
+
+    text = zf.read(csv_name).decode("cp932")
+    pref_counts: dict[str, Counter[str]] = defaultdict(Counter)
+    for row in csv.reader(io.StringIO(text)):
+        if len(row) < 5:
+            continue
+        pref_ja = normalize_name(row[1])
+        tokens = re.findall(r"[A-Z]+", row[4].upper())
+        if len(tokens) >= 2 and tokens[-1] in {"TO", "FU", "KEN"}:
+            tokens = tokens[:-1]
+        pref_en = "".join(tokens)
+        if pref_ja and pref_en:
+            pref_counts[pref_ja][pref_en.lower()] += 1
+
+    out: dict[str, str] = {}
+    for pref_ja, ctr in pref_counts.items():
+        out[pref_ja] = ctr.most_common(1)[0][0]
+    return out
+
+
 def choose_slug(
     row: AreaRow,
     postal_slug_map: dict[tuple[str, str], str],
@@ -361,6 +387,7 @@ def choose_slug(
 def main() -> None:
     rows = read_sheet_rows_from_xlsx(ADMIN_SOURCE_URL)
     postal_slug_map = read_postal_slug_map(POSTAL_ROMAN_SOURCE_URL)
+    prefecture_slug_map = read_postal_prefecture_slug_map(POSTAL_ROMAN_SOURCE_URL)
     code_to_row = {row.code: row for row in rows}
 
     designated_ward_codes: set[str] = set()
@@ -427,6 +454,35 @@ def main() -> None:
             item["wards"] = ward_entries
 
         municipalities_payload.append(item)
+
+    code_to_prefecture = {m.code: m.prefecture for m in municipalities}
+
+    # Step 1: Only collisions across different prefectures get prefecture prefix.
+    groups: dict[tuple[str, str], list[dict[str, object]]] = defaultdict(list)
+    for item in municipalities_payload:
+        groups[(str(item["slug"]), str(item["type"]))].append(item)
+    for _, items in groups.items():
+        if len(items) <= 1:
+            continue
+        prefectures = {code_to_prefecture.get(str(item["code"]), "") for item in items}
+        if len(prefectures) <= 1:
+            continue
+        for item in items:
+            pref = code_to_prefecture.get(str(item["code"]), "")
+            pref_slug = prefecture_slug_map.get(pref)
+            if pref_slug:
+                item["slug"] = f"{pref_slug}-{item['slug']}"
+
+    # Step 2: Remaining collisions (same-prefecture duplicates) get numeric suffixes.
+    groups_after_prefix: dict[tuple[str, str], list[dict[str, object]]] = defaultdict(list)
+    for item in municipalities_payload:
+        groups_after_prefix[(str(item["slug"]), str(item["type"]))].append(item)
+    for _, items in groups_after_prefix.items():
+        if len(items) <= 1:
+            continue
+        items.sort(key=lambda x: str(x["code"]))
+        for idx, item in enumerate(items, start=1):
+            item["slug"] = f"{item['slug']}-{idx}"
 
     out_root = Path("data")
     out_root.mkdir(parents=True, exist_ok=True)

@@ -1,7 +1,7 @@
 {
   "source_url": "https://nlftp.mlit.go.jp/ksj/gml/codelist/AdminiBoundary_CD.xlsx",
   "slug_source_url": "https://www.post.japanpost.jp/zipcode/dl/roman/KEN_ALL_ROME.zip",
-  "generated_at": "2026-02-23T07:20:02.063302+00:00",
+  "generated_at": "2026-02-23T09:10:35.036484+00:00",
   "municipalities": [
     {
       "code": "01100",
@@ -296,7 +296,7 @@
       "code": "01233",
       "name": "伊達市",
       "kana": "ﾀﾞﾃｼ",
-      "slug": "date",
+      "slug": "hokkaido-date",
       "type": "city"
     },
     {
@@ -317,7 +317,7 @@
       "code": "01236",
       "name": "北斗市",
       "kana": "ﾎｸﾄｼ",
-      "slug": "hokuto",
+      "slug": "hokkaido-hokuto",
       "type": "city"
     },
     {
@@ -380,7 +380,7 @@
       "code": "01345",
       "name": "森町",
       "kana": "ﾓﾘﾏﾁ",
-      "slug": "mori",
+      "slug": "hokkaido-mori",
       "type": "town"
     },
     {
@@ -401,7 +401,7 @@
       "code": "01361",
       "name": "江差町",
       "kana": "ｴｻｼﾁｮｳ",
-      "slug": "esashi",
+      "slug": "esashi-1",
       "type": "town"
     },
     {
@@ -716,7 +716,7 @@
       "code": "01457",
       "name": "上川町",
       "kana": "ｶﾐｶﾜﾁｮｳ",
-      "slug": "kamikawa",
+      "slug": "hokkaido-kamikawa",
       "type": "town"
     },
     {
@@ -800,7 +800,7 @@
       "code": "01471",
       "name": "中川町",
       "kana": "ﾅｶｶﾞﾜﾁｮｳ",
-      "slug": "nakagawa",
+      "slug": "hokkaido-nakagawa",
       "type": "town"
     },
     {
@@ -884,7 +884,7 @@
       "code": "01514",
       "name": "枝幸町",
       "kana": "ｴｻｼﾁｮｳ",
-      "slug": "esashi",
+      "slug": "esashi-2",
       "type": "town"
     },
     {
@@ -1080,7 +1080,7 @@
       "code": "01601",
       "name": "日高町",
       "kana": "ﾋﾀﾞｶﾁｮｳ",
-      "slug": "hidaka",
+      "slug": "hokkaido-hidaka",
       "type": "town"
     },
     {
@@ -1164,7 +1164,7 @@
       "code": "01636",
       "name": "清水町",
       "kana": "ｼﾐｽﾞﾁｮｳ",
-      "slug": "shimizu",
+      "slug": "hokkaido-shimizu",
       "type": "town"
     },
     {
@@ -1192,7 +1192,7 @@
       "code": "01641",
       "name": "大樹町",
       "kana": "ﾀｲｷﾁｮｳ",
-      "slug": "taiki",
+      "slug": "hokkaido-taiki",
       "type": "town"
     },
     {
@@ -1213,7 +1213,7 @@
       "code": "01644",
       "name": "池田町",
       "kana": "ｲｹﾀﾞﾁｮｳ",
-      "slug": "ikeda",
+      "slug": "hokkaido-ikeda",
       "type": "town"
     },
     {
@@ -1591,7 +1591,7 @@
       "code": "02445",
       "name": "南部町",
       "kana": "ﾅﾝﾌﾞﾁｮｳ",
-      "slug": "nambu",
+      "slug": "aomori-nambu",
       "type": "town"
     },
     {
@@ -1829,7 +1829,7 @@
       "code": "03507",
       "name": "洋野町",
       "kana": "ﾋﾛﾉﾁｮｳ",
-      "slug": "hirono",
+      "slug": "iwate-hirono",
       "type": "town"
     },
     {
@@ -2013,7 +2013,7 @@
       "code": "04324",
       "name": "川崎町",
       "kana": "ｶﾜｻｷﾏﾁ",
-      "slug": "kawasaki",
+      "slug": "miyagi-kawasaki",
       "type": "town"
     },
     {
@@ -2090,7 +2090,7 @@
       "code": "04445",
       "name": "加美町",
       "kana": "ｶﾐﾏﾁ",
-      "slug": "kami",
+      "slug": "miyagi-kami",
       "type": "town"
     },
     {
@@ -2104,7 +2104,7 @@
       "code": "04505",
       "name": "美里町",
       "kana": "ﾐｻﾄﾏﾁ",
-      "slug": "misato",
+      "slug": "miyagi-misato",
       "type": "town"
     },
     {
@@ -2279,7 +2279,7 @@
       "code": "05434",
       "name": "美郷町",
       "kana": "ﾐｻﾄﾁｮｳ",
-      "slug": "misato",
+      "slug": "akita-misato",
       "type": "town"
     },
     {
@@ -2300,7 +2300,7 @@
       "code": "06201",
       "name": "山形市",
       "kana": "ﾔﾏｶﾞﾀｼ",
-      "slug": "yamagata",
+      "slug": "yamagata-yamagata",
       "type": "city"
     },
     {
@@ -2419,7 +2419,7 @@
       "code": "06323",
       "name": "朝日町",
       "kana": "ｱｻﾋﾏﾁ",
-      "slug": "asahi",
+      "slug": "yamagata-asahi",
       "type": "town"
     },
     {
@@ -2440,7 +2440,7 @@
       "code": "06361",
       "name": "金山町",
       "kana": "ｶﾈﾔﾏﾏﾁ",
-      "slug": "kaneyama",
+      "slug": "yamagata-kaneyama",
       "type": "town"
     },
     {
@@ -2496,14 +2496,14 @@
       "code": "06382",
       "name": "川西町",
       "kana": "ｶﾜﾆｼﾏﾁ",
-      "slug": "kawanishi",
+      "slug": "yamagata-kawanishi",
       "type": "town"
     },
     {
       "code": "06401",
       "name": "小国町",
       "kana": "ｵｸﾞﾆﾏﾁ",
-      "slug": "oguni",
+      "slug": "yamagata-oguni",
       "type": "town"
     },
     {
@@ -2622,7 +2622,7 @@
       "code": "07213",
       "name": "伊達市",
       "kana": "ﾀﾞﾃｼ",
-      "slug": "date",
+      "slug": "fukushima-date",
       "type": "city"
     },
     {
@@ -2762,14 +2762,14 @@
       "code": "07445",
       "name": "金山町",
       "kana": "ｶﾈﾔﾏﾏﾁ",
-      "slug": "kaneyama",
+      "slug": "fukushima-kaneyama",
       "type": "town"
     },
     {
       "code": "07446",
       "name": "昭和村",
       "kana": "ｼｮｳﾜﾑﾗ",
-      "slug": "showa",
+      "slug": "fukushima-showa",
       "type": "vill"
     },
     {
@@ -2881,14 +2881,14 @@
       "code": "07522",
       "name": "小野町",
       "kana": "ｵﾉﾏﾁ",
-      "slug": "ono",
+      "slug": "fukushima-ono",
       "type": "town"
     },
     {
       "code": "07541",
       "name": "広野町",
       "kana": "ﾋﾛﾉﾏﾁ",
-      "slug": "hirono",
+      "slug": "fukushima-hirono",
       "type": "town"
     },
     {
@@ -2979,7 +2979,7 @@
       "code": "08204",
       "name": "古河市",
       "kana": "ｺｶﾞｼ",
-      "slug": "koga",
+      "slug": "ibaraki-koga",
       "type": "city"
     },
     {
@@ -3077,7 +3077,7 @@
       "code": "08222",
       "name": "鹿嶋市",
       "kana": "ｶｼﾏｼ",
-      "slug": "kashima",
+      "slug": "ibaraki-kashima",
       "type": "city"
     },
     {
@@ -3343,7 +3343,7 @@
       "code": "09214",
       "name": "さくら市",
       "kana": "ｻｸﾗｼ",
-      "slug": "sakura",
+      "slug": "tochigi-sakura",
       "type": "city"
     },
     {
@@ -3434,7 +3434,7 @@
       "code": "09411",
       "name": "那珂川町",
       "kana": "ﾅｶｶﾞﾜﾏﾁ",
-      "slug": "nakagawa",
+      "slug": "tochigi-nakagawa",
       "type": "town"
     },
     {
@@ -3469,7 +3469,7 @@
       "code": "10205",
       "name": "太田市",
       "kana": "ｵｵﾀｼ",
-      "slug": "ota",
+      "slug": "gumma-ota",
       "type": "city"
     },
     {
@@ -3602,7 +3602,7 @@
       "code": "10428",
       "name": "高山村",
       "kana": "ﾀｶﾔﾏﾑﾗ",
-      "slug": "takayama",
+      "slug": "gumma-takayama",
       "type": "vill"
     },
     {
@@ -3630,7 +3630,7 @@
       "code": "10448",
       "name": "昭和村",
       "kana": "ｼｮｳﾜﾑﾗ",
-      "slug": "showa",
+      "slug": "gumma-showa",
       "type": "vill"
     },
     {
@@ -3658,7 +3658,7 @@
       "code": "10522",
       "name": "明和町",
       "kana": "ﾒｲﾜﾏﾁ",
-      "slug": "meiwa",
+      "slug": "gumma-meiwa",
       "type": "town"
     },
     {
@@ -4150,14 +4150,14 @@
       "code": "11381",
       "name": "美里町",
       "kana": "ﾐｻﾄﾏﾁ",
-      "slug": "misato",
+      "slug": "saitama-misato",
       "type": "town"
     },
     {
       "code": "11383",
       "name": "神川町",
       "kana": "ｶﾐｶﾜﾏﾁ",
-      "slug": "kamikawa",
+      "slug": "saitama-kamikawa",
       "type": "town"
     },
     {
@@ -4313,7 +4313,7 @@
       "code": "12212",
       "name": "佐倉市",
       "kana": "ｻｸﾗｼ",
-      "slug": "sakura",
+      "slug": "chiba-sakura",
       "type": "city"
     },
     {
@@ -4530,7 +4530,7 @@
       "code": "12349",
       "name": "東庄町",
       "kana": "ﾄｳﾉｼｮｳﾏﾁ",
-      "slug": "tonosho",
+      "slug": "chiba-tonosho",
       "type": "town"
     },
     {
@@ -4628,7 +4628,7 @@
       "code": "13102",
       "name": "中央区",
       "kana": "ﾁｭｳｵｳｸ",
-      "slug": "chuo",
+      "slug": "tokyo-chuo",
       "type": "city"
     },
     {
@@ -4691,7 +4691,7 @@
       "code": "13111",
       "name": "大田区",
       "kana": "ｵｵﾀｸ",
-      "slug": "ota",
+      "slug": "tokyo-ota",
       "type": "city"
     },
     {
@@ -4712,7 +4712,7 @@
       "code": "13114",
       "name": "中野区",
       "kana": "ﾅｶﾉｸ",
-      "slug": "nakano",
+      "slug": "tokyo-nakano",
       "type": "city"
     },
     {
@@ -4817,7 +4817,7 @@
       "code": "13206",
       "name": "府中市",
       "kana": "ﾌﾁｭｳｼ",
-      "slug": "fuchu",
+      "slug": "tokyo-fuchu",
       "type": "city"
     },
     {
@@ -4999,7 +4999,7 @@
       "code": "13362",
       "name": "利島村",
       "kana": "ﾄｼﾏﾑﾗ",
-      "slug": "toshima",
+      "slug": "tokyo-toshima",
       "type": "vill"
     },
     {
@@ -5425,7 +5425,7 @@
       "code": "14362",
       "name": "大井町",
       "kana": "ｵｵｲﾏﾁ",
-      "slug": "oi",
+      "slug": "kanagawa-oi",
       "type": "town"
     },
     {
@@ -5854,7 +5854,7 @@
       "code": "16343",
       "name": "朝日町",
       "kana": "ｱｻﾋﾏﾁ",
-      "slug": "asahi",
+      "slug": "toyama-asahi",
       "type": "town"
     },
     {
@@ -6015,7 +6015,7 @@
       "code": "18205",
       "name": "大野市",
       "kana": "ｵｵﾉｼ",
-      "slug": "ono",
+      "slug": "fukui-ono",
       "type": "city"
     },
     {
@@ -6050,7 +6050,7 @@
       "code": "18210",
       "name": "坂井市",
       "kana": "ｻｶｲｼ",
-      "slug": "sakai",
+      "slug": "fukui-sakai",
       "type": "city"
     },
     {
@@ -6064,7 +6064,7 @@
       "code": "18382",
       "name": "池田町",
       "kana": "ｲｹﾀﾞﾁｮｳ",
-      "slug": "ikeda",
+      "slug": "fukui-ikeda",
       "type": "town"
     },
     {
@@ -6085,7 +6085,7 @@
       "code": "18442",
       "name": "美浜町",
       "kana": "ﾐﾊﾏﾁｮｳ",
-      "slug": "mihama",
+      "slug": "fukui-mihama",
       "type": "town"
     },
     {
@@ -6099,14 +6099,14 @@
       "code": "18483",
       "name": "おおい町",
       "kana": "ｵｵｲﾁｮｳ",
-      "slug": "oi",
+      "slug": "fukui-oi",
       "type": "town"
     },
     {
       "code": "18501",
       "name": "若狭町",
       "kana": "ﾜｶｻﾁｮｳ",
-      "slug": "wakasa",
+      "slug": "fukui-wakasa",
       "type": "town"
     },
     {
@@ -6162,7 +6162,7 @@
       "code": "19209",
       "name": "北杜市",
       "kana": "ﾎｸﾄｼ",
-      "slug": "hokuto",
+      "slug": "yamanashi-hokuto",
       "type": "city"
     },
     {
@@ -6197,7 +6197,7 @@
       "code": "19214",
       "name": "中央市",
       "kana": "ﾁｭｳｵｳｼ",
-      "slug": "chuo",
+      "slug": "yamanashi-chuo",
       "type": "city"
     },
     {
@@ -6225,7 +6225,7 @@
       "code": "19366",
       "name": "南部町",
       "kana": "ﾅﾝﾌﾞﾁｮｳ",
-      "slug": "nambu",
+      "slug": "yamanashi-nambu",
       "type": "town"
     },
     {
@@ -6372,7 +6372,7 @@
       "code": "20211",
       "name": "中野市",
       "kana": "ﾅｶﾉｼ",
-      "slug": "nakano",
+      "slug": "nagano-nakano",
       "type": "city"
     },
     {
@@ -6442,7 +6442,7 @@
       "code": "20304",
       "name": "川上村",
       "kana": "ｶﾜｶﾐﾑﾗ",
-      "slug": "kawakami",
+      "slug": "nagano-kawakami",
       "type": "vill"
     },
     {
@@ -6582,7 +6582,7 @@
       "code": "20403",
       "name": "高森町",
       "kana": "ﾀｶﾓﾘﾏﾁ",
-      "slug": "takamori",
+      "slug": "nagano-takamori",
       "type": "town"
     },
     {
@@ -6743,7 +6743,7 @@
       "code": "20481",
       "name": "池田町",
       "kana": "ｲｹﾀﾞﾏﾁ",
-      "slug": "ikeda",
+      "slug": "nagano-ikeda",
       "type": "town"
     },
     {
@@ -6785,7 +6785,7 @@
       "code": "20543",
       "name": "高山村",
       "kana": "ﾀｶﾔﾏﾑﾗ",
-      "slug": "takayama",
+      "slug": "nagano-takayama",
       "type": "vill"
     },
     {
@@ -6883,7 +6883,7 @@
       "code": "21207",
       "name": "美濃市",
       "kana": "ﾐﾉｼ",
-      "slug": "mino",
+      "slug": "gifu-mino",
       "type": "city"
     },
     {
@@ -6939,7 +6939,7 @@
       "code": "21215",
       "name": "山県市",
       "kana": "ﾔﾏｶﾞﾀｼ",
-      "slug": "yamagata",
+      "slug": "gifu-yamagata",
       "type": "city"
     },
     {
@@ -7051,14 +7051,14 @@
       "code": "21403",
       "name": "大野町",
       "kana": "ｵｵﾉﾁｮｳ",
-      "slug": "ono",
+      "slug": "gifu-ono",
       "type": "town"
     },
     {
       "code": "21404",
       "name": "池田町",
       "kana": "ｲｹﾀﾞﾁｮｳ",
-      "slug": "ikeda",
+      "slug": "gifu-ikeda",
       "type": "town"
     },
     {
@@ -7384,7 +7384,7 @@
       "code": "22341",
       "name": "清水町",
       "kana": "ｼﾐｽﾞﾁｮｳ",
-      "slug": "shimizu",
+      "slug": "shizuoka-shimizu",
       "type": "town"
     },
     {
@@ -7419,7 +7419,7 @@
       "code": "22461",
       "name": "森町",
       "kana": "ﾓﾘﾏﾁ",
-      "slug": "mori",
+      "slug": "shizuoka-mori",
       "type": "town"
     },
     {
@@ -7596,7 +7596,7 @@
       "code": "23208",
       "name": "津島市",
       "kana": "ﾂｼﾏｼ",
-      "slug": "tsushima",
+      "slug": "aichi-tsushima",
       "type": "city"
     },
     {
@@ -7659,7 +7659,7 @@
       "code": "23217",
       "name": "江南市",
       "kana": "ｺｳﾅﾝｼ",
-      "slug": "konan",
+      "slug": "aichi-konan",
       "type": "city"
     },
     {
@@ -7785,7 +7785,7 @@
       "code": "23236",
       "name": "みよし市",
       "kana": "ﾐﾖｼｼ",
-      "slug": "miyoshi",
+      "slug": "aichi-miyoshi",
       "type": "city"
     },
     {
@@ -7876,7 +7876,7 @@
       "code": "23446",
       "name": "美浜町",
       "kana": "ﾐﾊﾏﾁｮｳ",
-      "slug": "mihama",
+      "slug": "aichi-mihama",
       "type": "town"
     },
     {
@@ -8037,7 +8037,7 @@
       "code": "24343",
       "name": "朝日町",
       "kana": "ｱｻﾋﾁｮｳ",
-      "slug": "asahi",
+      "slug": "mie-asahi",
       "type": "town"
     },
     {
@@ -8058,7 +8058,7 @@
       "code": "24442",
       "name": "明和町",
       "kana": "ﾒｲﾜﾁｮｳ",
-      "slug": "meiwa",
+      "slug": "mie-meiwa",
       "type": "town"
     },
     {
@@ -8086,7 +8086,7 @@
       "code": "24471",
       "name": "大紀町",
       "kana": "ﾀｲｷﾁｮｳ",
-      "slug": "taiki",
+      "slug": "mie-taiki",
       "type": "town"
     },
     {
@@ -8100,14 +8100,14 @@
       "code": "24543",
       "name": "紀北町",
       "kana": "ｷﾎｸﾁｮｳ",
-      "slug": "kihoku",
+      "slug": "mie-kihoku",
       "type": "town"
     },
     {
       "code": "24561",
       "name": "御浜町",
       "kana": "ﾐﾊﾏﾁｮｳ",
-      "slug": "mihama",
+      "slug": "mie-mihama",
       "type": "town"
     },
     {
@@ -8184,7 +8184,7 @@
       "code": "25211",
       "name": "湖南市",
       "kana": "ｺﾅﾝｼ",
-      "slug": "konan",
+      "slug": "shiga-konan",
       "type": "city"
     },
     {
@@ -8212,7 +8212,7 @@
       "code": "25383",
       "name": "日野町",
       "kana": "ﾋﾉﾁｮｳ",
-      "slug": "hino",
+      "slug": "shiga-hino",
       "type": "town"
     },
     {
@@ -8692,7 +8692,7 @@
       "code": "27140",
       "name": "堺市",
       "kana": "ｻｶｲｼ",
-      "slug": "sakai",
+      "slug": "osaka-sakai",
       "type": "city",
       "wards": [
         {
@@ -8869,14 +8869,14 @@
       "code": "27219",
       "name": "和泉市",
       "kana": "ｲｽﾞﾐｼ",
-      "slug": "izumi",
+      "slug": "osaka-izumi",
       "type": "city"
     },
     {
       "code": "27220",
       "name": "箕面市",
       "kana": "ﾐﾉｵｼ",
-      "slug": "mino",
+      "slug": "osaka-mino",
       "type": "city"
     },
     {
@@ -9009,14 +9009,14 @@
       "code": "27366",
       "name": "岬町",
       "kana": "ﾐｻｷﾁｮｳ",
-      "slug": "misaki",
+      "slug": "osaka-misaki",
       "type": "town"
     },
     {
       "code": "27381",
       "name": "太子町",
       "kana": "ﾀｲｼﾁｮｳ",
-      "slug": "taishi",
+      "slug": "osaka-taishi",
       "type": "town"
     },
     {
@@ -9221,7 +9221,7 @@
       "code": "28218",
       "name": "小野市",
       "kana": "ｵﾉｼ",
-      "slug": "ono",
+      "slug": "hyogo-ono",
       "type": "city"
     },
     {
@@ -9319,7 +9319,7 @@
       "code": "28381",
       "name": "稲美町",
       "kana": "ｲﾅﾐﾁｮｳ",
-      "slug": "inami",
+      "slug": "hyogo-inami",
       "type": "town"
     },
     {
@@ -9347,14 +9347,14 @@
       "code": "28446",
       "name": "神河町",
       "kana": "ｶﾐｶﾜﾁｮｳ",
-      "slug": "kamikawa",
+      "slug": "hyogo-kamikawa",
       "type": "town"
     },
     {
       "code": "28464",
       "name": "太子町",
       "kana": "ﾀｲｼﾁｮｳ",
-      "slug": "taishi",
+      "slug": "hyogo-taishi",
       "type": "town"
     },
     {
@@ -9375,7 +9375,7 @@
       "code": "28585",
       "name": "香美町",
       "kana": "ｶﾐﾁｮｳ",
-      "slug": "kami",
+      "slug": "hyogo-kami",
       "type": "town"
     },
     {
@@ -9508,7 +9508,7 @@
       "code": "29361",
       "name": "川西町",
       "kana": "ｶﾜﾆｼﾁｮｳ",
-      "slug": "kawanishi",
+      "slug": "nara-kawanishi",
       "type": "town"
     },
     {
@@ -9648,7 +9648,7 @@
       "code": "29452",
       "name": "川上村",
       "kana": "ｶﾜｶﾐﾑﾗ",
-      "slug": "kawakami",
+      "slug": "nara-kawakami",
       "type": "vill"
     },
     {
@@ -9774,14 +9774,14 @@
       "code": "30381",
       "name": "美浜町",
       "kana": "ﾐﾊﾏﾁｮｳ",
-      "slug": "mihama",
+      "slug": "wakayama-mihama",
       "type": "town"
     },
     {
       "code": "30382",
       "name": "日高町",
       "kana": "ﾋﾀﾞｶﾁｮｳ",
-      "slug": "hidaka",
+      "slug": "wakayama-hidaka",
       "type": "town"
     },
     {
@@ -9795,7 +9795,7 @@
       "code": "30390",
       "name": "印南町",
       "kana": "ｲﾅﾐﾁｮｳ",
-      "slug": "inami",
+      "slug": "wakayama-inami",
       "type": "town"
     },
     {
@@ -9907,7 +9907,7 @@
       "code": "31325",
       "name": "若桜町",
       "kana": "ﾜｶｻﾁｮｳ",
-      "slug": "wakasa",
+      "slug": "tottori-wakasa",
       "type": "town"
     },
     {
@@ -9970,7 +9970,7 @@
       "code": "31389",
       "name": "南部町",
       "kana": "ﾅﾝﾌﾞﾁｮｳ",
-      "slug": "nambu",
+      "slug": "tottori-nambu",
       "type": "town"
     },
     {
@@ -9991,7 +9991,7 @@
       "code": "31402",
       "name": "日野町",
       "kana": "ﾋﾉﾁｮｳ",
-      "slug": "hino",
+      "slug": "tottori-hino",
       "type": "town"
     },
     {
@@ -10082,7 +10082,7 @@
       "code": "32448",
       "name": "美郷町",
       "kana": "ﾐｻﾄﾁｮｳ",
-      "slug": "misato",
+      "slug": "shimane-misato",
       "type": "town"
     },
     {
@@ -10343,7 +10343,7 @@
       "code": "33666",
       "name": "美咲町",
       "kana": "ﾐｻｷﾁｮｳ",
-      "slug": "misaki",
+      "slug": "okayama-misaki",
       "type": "town"
     },
     {
@@ -10457,14 +10457,14 @@
       "code": "34208",
       "name": "府中市",
       "kana": "ﾌﾁｭｳｼ",
-      "slug": "fuchu",
+      "slug": "hiroshima-fuchu",
       "type": "city"
     },
     {
       "code": "34209",
       "name": "三次市",
       "kana": "ﾐﾖｼｼ",
-      "slug": "miyoshi",
+      "slug": "hiroshima-miyoshi",
       "type": "city"
     },
     {
@@ -10758,7 +10758,7 @@
       "code": "36208",
       "name": "三好市",
       "kana": "ﾐﾖｼｼ",
-      "slug": "miyoshi",
+      "slug": "tokushima-miyoshi",
       "type": "city"
     },
     {
@@ -10933,7 +10933,7 @@
       "code": "37322",
       "name": "土庄町",
       "kana": "ﾄﾉｼｮｳﾁｮｳ",
-      "slug": "tonosho",
+      "slug": "kagawa-tonosho",
       "type": "town"
     },
     {
@@ -11122,7 +11122,7 @@
       "code": "38488",
       "name": "鬼北町",
       "kana": "ｷﾎｸﾁｮｳ",
-      "slug": "kihoku",
+      "slug": "ehime-kihoku",
       "type": "town"
     },
     {
@@ -11199,7 +11199,7 @@
       "code": "39211",
       "name": "香南市",
       "kana": "ｺｳﾅﾝｼ",
-      "slug": "konan",
+      "slug": "kochi-konan",
       "type": "city"
     },
     {
@@ -11339,7 +11339,7 @@
       "code": "39411",
       "name": "津野町",
       "kana": "ﾂﾉﾁｮｳ",
-      "slug": "tsuno",
+      "slug": "kochi-tsuno",
       "type": "town"
     },
     {
@@ -11616,7 +11616,7 @@
       "code": "40223",
       "name": "古賀市",
       "kana": "ｺｶﾞｼ",
-      "slug": "koga",
+      "slug": "fukuoka-koga",
       "type": "city"
     },
     {
@@ -11833,7 +11833,7 @@
       "code": "40605",
       "name": "川崎町",
       "kana": "ｶﾜｻｷﾏﾁ",
-      "slug": "kawasaki",
+      "slug": "fukuoka-kawasaki",
       "type": "town"
     },
     {
@@ -11938,7 +11938,7 @@
       "code": "41207",
       "name": "鹿島市",
       "kana": "ｶｼﾏｼ",
-      "slug": "kashima",
+      "slug": "saga-kashima",
       "type": "city"
     },
     {
@@ -12085,7 +12085,7 @@
       "code": "42209",
       "name": "対馬市",
       "kana": "ﾂｼﾏｼ",
-      "slug": "tsushima",
+      "slug": "nagasaki-tsushima",
       "type": "city"
     },
     {
@@ -12318,7 +12318,7 @@
       "code": "43348",
       "name": "美里町",
       "kana": "ﾐｻﾄﾏﾁ",
-      "slug": "misato",
+      "slug": "kumamoto-misato",
       "type": "town"
     },
     {
@@ -12374,7 +12374,7 @@
       "code": "43424",
       "name": "小国町",
       "kana": "ｵｸﾞﾆﾏﾁ",
-      "slug": "oguni",
+      "slug": "kumamoto-oguni",
       "type": "town"
     },
     {
@@ -12388,7 +12388,7 @@
       "code": "43428",
       "name": "高森町",
       "kana": "ﾀｶﾓﾘﾏﾁ",
-      "slug": "takamori",
+      "slug": "kumamoto-takamori",
       "type": "town"
     },
     {
@@ -12787,7 +12787,7 @@
       "code": "45406",
       "name": "都農町",
       "kana": "ﾂﾉﾁｮｳ",
-      "slug": "tsuno",
+      "slug": "miyazaki-tsuno",
       "type": "town"
     },
     {
@@ -12815,7 +12815,7 @@
       "code": "45431",
       "name": "美郷町",
       "kana": "ﾐｻﾄﾁｮｳ",
-      "slug": "misato",
+      "slug": "miyazaki-misato",
       "type": "town"
     },
     {
@@ -12871,7 +12871,7 @@
       "code": "46208",
       "name": "出水市",
       "kana": "ｲｽﾞﾐｼ",
-      "slug": "izumi",
+      "slug": "kagoshima-izumi",
       "type": "city"
     },
     {
@@ -12983,7 +12983,7 @@
       "code": "46304",
       "name": "十島村",
       "kana": "ﾄｼﾏﾑﾗ",
-      "slug": "toshima",
+      "slug": "kagoshima-toshima",
       "type": "vill"
     },
     {
