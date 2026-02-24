@@ -63,11 +63,13 @@
 ### Page Routes (Static Build / SSG)
 
 #### 1) `GET /{slug}/{type}`
+
 - Municipality page.
 - Displays municipality info and calendar list matched by `(slug, type)`.
 - If no calendar entry exists, page still resolves and shows "no calendars yet".
 
 #### 2) `GET /{slug}/{type}/{wardSlug}`
+
 - Ward page under municipality.
 - Displays parent + ward info and calendar list matched by `(slug, type, wardSlug)`.
 - If ward exists but calendar entry is missing, page still resolves and shows empty-state.
@@ -78,10 +80,12 @@
 ## Static Build Strategy
 
 ### Build Input
+
 - `data/municipalities.json`
 - `data/calendars.json`
 
 ### Build Output (HTML)
+
 - Municipality page:
   - route: `/{slug}/{type}`
   - file: `/{slug}/{type}/index.html`
@@ -90,10 +94,12 @@
   - file: `/{slug}/{type}/{wardSlug}/index.html`
 
 Examples:
+
 - `/kodaira/city` -> `kodaira/city/index.html`
 - `/kyoto/city/nishikyo` -> `kyoto/city/nishikyo/index.html`
 
 ### Page Generation Rules
+
 - Generate one municipality page per `municipalities[]`.
 - Generate ward pages only for wards present in `municipality.wards[]`.
 - Calendar binding:
@@ -102,12 +108,14 @@ Examples:
 - If no calendar data exists, still generate the page and show an empty-state.
 
 ### Build-Time Validation
+
 - Fail build if duplicate `(slug,type)` exists in municipalities.
 - Fail build if a calendar target municipality does not exist.
 - Fail build if a ward calendar target does not exist under the parent municipality.
 - Warn (not fail) on municipality/ward pages with no calendars.
 
 ### Deploy Model
+
 - Publish generated HTML/CSS/JS as static assets.
 - Any data update requires rebuild + redeploy.
 
