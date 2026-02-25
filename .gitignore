@@ -1,2 +1,4 @@
+.env
+.react-router/
 build/
 node_modules/
